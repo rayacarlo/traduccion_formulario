@@ -1,0 +1,10 @@
+var formSignin = document.getElementById("form-signin-heading");
+formSignin.innerHTML = "Por favor inicia sesión";
+var inputEmail = document.getElementById("inputEmail");
+inputEmail.placeholder = "Correo Electrónico";
+var inputPassword = document.getElementById("inputPassword");
+inputPassword.placeholder = "Contraseña";
+var rememberMe = document.getElementsByTagName("span")[0];
+rememberMe.innerHTML = "Recordar datos";
+var signIn = document.getElementsByTagName("button")[0];
+signIn.innerHTML = "Iniciar Sesión";
